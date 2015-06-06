@@ -16,7 +16,7 @@ body{ font: 12px/180% Arial, Helvetica, sans-serif, "新宋体"; }
 .nav .list a:hover{color:#FFA304;}
 .nav .list a:hover,.nav .list .now{color:#F00;background:#fff;}
 .nav .box{position:absolute;left:-27px;top:42px;width:806px;background:#FFF;overflow:hidden;height:0;filter:alpha(opacity=0);opacity:0;border-bottom:2px solid #074c52;z-index: 100;}
-.nav .cont{position:relative;padding:25px 0 0px 24px;}
+.nav .cont{position:relative;padding:25px 0 0px 24px;background-color: #f9f9f9;}
 /* sublist */
 .sublist li{float:left;width:168px;padding-right:24px;padding-bottom:24px;}
 .sublist li h3.mcate-item-hd{font-family:'微软雅黑';padding-left:2px;font-size:14px;height:26px;line-height:26px;border-bottom:1px dashed #666666;word-break:keep-all;white-space:nowrap;}

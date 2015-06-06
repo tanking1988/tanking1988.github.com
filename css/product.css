@@ -16,7 +16,7 @@
 #container h2{
 	line-height: 35px;
 	font-size: 30px;
-	color:#fff;
+	color:#000;
 	font-weight: bold;
 	margin: 20px 10px 10px 0;
 }
@@ -28,6 +28,9 @@
 	width:90%; 
 	max-height:700px;
 }
+#image-change{
+	text-align: center;
+}
 #container hr{
 	margin: 10px 20px 10px 0;
 }
@@ -35,7 +38,7 @@
 #container h3{
 	font-size: 25px;
 	margin: 20px 0 10px 0;
-	color:#fff;
+	color:#000;
 	font-weight: bold;
 }
 
@@ -43,7 +46,7 @@
 #container p{
 	margin: 10px 0 10px 0;
 	font-size: 17px;
-	color: #fff;
+	color: #000;
 	text-indent: 34px;
 }
 
@@ -79,7 +82,8 @@
 	background-position:95% 50%
 }
 .subNav:hover{
-	color:#8fd237;
+	color:#fff;
+	background-color:#277fc2;
 }
 .currentDd{
 	color:#277fc2
@@ -99,7 +103,7 @@
 	text-align:left;
 	font-size:14px;
 	line-height:28px;
-	color:#fff;
+	color:#277fc2;
 }
 .navContent li a:hover{
 	color:#fff;
