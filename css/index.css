@@ -1,0 +1,133 @@
+#title{
+	margin: 0 100px 0 100px;
+	height: auto;
+	width: auto;
+}
+#title #logo{
+	height:70px;
+	width: auto;
+}
+
+.link-logo{
+	float: right;
+	margin-left:20px;
+}
+
+.link-logo .link-a{
+	margin-top: 40px;
+}
+
+.link-logo .link-a img{
+	height:25px;
+	width: 25px;
+}
+
+#index-content{
+	margin: 50px 100px 50px 100px;
+}
+
+.text-content{
+	background: #eee;
+	margin: 0 10px 0 10px;
+	border: 1px solid #aaa;
+	padding: 0 10px 0 10px;
+	border-radius: 10px;
+	filter:alpha(opacity=90); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.9; /*Firefox私有，透明度50%*/
+	opacity:0.9;/*其他，透明度50%*/
+}
+
+.text-style h2{
+	font-size: 25px;
+	line-height: 30px;
+	padding-left: 10px;
+	color: black;
+	margin-top: 20px;
+}
+
+.put-image{
+	width: 100%;
+	text-align: center;
+}
+
+.put-image img{
+	margin: 20px 0 20px 0;
+	width: 90%;
+	height:200px;
+}
+
+.text-content p{
+	text-indent: 34px;
+	font-size: 17px;
+	line-height: 20px;
+	color: black;
+	margin: 10px 0 10px 0;
+}
+
+.clear{
+	clear: both;
+}
+
+#friends-link{
+	margin: 20px 100px 20px 100px;
+}
+#friends-link h2{
+	color:#fff;
+}
+
+#friends-link p{
+	font-size: 15px;
+	margin:10px 0 10px 10px;
+}
+
+#friends-link p a:hover{
+	text-decoration:underline;
+}
+
+#panel{
+	border-top: 1px solid #aaa;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 100px;
+	text-align: center;
+}
+#toTop{
+	float:right;
+}
+
+#toTop a img{
+	width: 50px;
+	height:50px;
+}
+
+#panel p{
+	margin: 20px 0 10px 0;
+	font-size: 15px;
+	color: #fff;
+}
+#panel #copy-right{
+	margin-top: 15px;
+}
+
+@media screen and (min-width: 800px){
+.left-div{
+	float: left;
+	width:50%;
+}
+.right-div{
+	float: left;
+	width:50%;
+}
+}
+
+@media screen and (max-width: 799px){
+.left-div{
+	width:100%;
+	margin: 20px 0 20px 0;
+}
+.right-div{
+	width:100%;
+	margin: 20px 0 20px 0;
+}
+}

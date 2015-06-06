@@ -1,0 +1,66 @@
+#qrcode-container{
+  z-index:101;
+  position:absolute;
+  top: 65px;
+  right: 48px;
+  width:220px;
+  height:302px;
+  border: 1px solid grey;
+  border-radius:6px;
+}
+#qrcode-container .qrcode-triangle{
+        position: absolute;
+        display:block;
+        width:0px;
+        height:0px;
+        left:14px;
+        border:11px;
+        overflow:hidden;
+        border-style: dashed dashed solid;
+}
+#qrcode-container .qrcode-down{
+          top:-22px;
+          border-color: transparent transparent grey;
+          z-index: 10;
+        }
+#qrcode-container .qrcode-top{
+          top:-21px;
+          border-color: transparent transparent #fff;
+          z-index:11;
+}
+#qrcode-container #qrcode-title{
+        position:absolute;
+        top: 0;
+        width:100%;
+        height: 40px;
+        font-size:14px;
+        color: black;
+        font-weight: bold;
+        background-color:#fff;
+        border-bottom:1px solid #999;
+        border-radius:6px 6px 0 0;
+        text-align: center;
+        line-height: 40px;
+}
+#qrcode-container #qrcode-content{
+  position:absolute;
+  width: 100%;
+  top: 41px;
+  bottom: 41px;
+  background-color:#fff;
+  text-align: center;
+}
+#qrcode-container #qrcode-content img{
+  width: 100%;
+  height: 100%;
+}
+#qrcode-container #qrcode-annotation{
+  position:absolute;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  color: black;
+  background: #fff;
+  text-align: center;
+  border-radius:0 0 6px 6px;
+}
